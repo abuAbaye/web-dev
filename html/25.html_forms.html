@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        #container {
+            background-color: gray;
+            padding: 50px;
+            margin: auto;
+            width: 25%;
+            border-radius: 20px;
+
+        }
+
+        #name {
+            padding-left: 10px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <h3>Tell us about your self</h3>
+        <textarea name="" id="textarea" cols="40" rows="5" placeholder="you should write your story here pls..."></textarea>
+        <h2>Best phones in 2022</h2>
+        <label for="phones">Choose from here: </label>
+        <select id="phones" >
+            <option value="">None</option>
+            <option value="">Iphone</option>
+            <option value="">Samsung</option>
+            <option value="">Xiomi</option>
+            <option value="">Nokia</option>
+            <option value="">Oppo</option>
+            <option value="">Vivo</option>
+            <option value="">Tecno</option>
+        </select>
+        <hr>
+        <br>
+    <form action="">
+        <label for="name">Name: </label>
+        <input id="name" type="text" placeholder="Input name">
+        <br> <br>
+        <label for="date">Your date of birth: </label>
+        <input type="date" id="date">
+        <br>
+        Sex: <br>
+        <input id="male" type="radio" name="sex" value="Male"><label for="male"> Male</label>
+        <br>
+        <input id="female" type="radio" name="sex" value="Female"> <label for="female"> Female</label>
+        <br>
+        <br>
+        <input id="terms" type="checkbox"> <label for="terms"> Accept our terms and conditions...</label>
+        <br>
+        <br>
+        <br>
+        <input type="button" name="submit" value="Save">
+    </form>
+    </div>
+    
+</body>
+</html>
